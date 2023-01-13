@@ -5,10 +5,6 @@ import (
 	"os"
 )
 
-var (
-	dosyaBilgisi1 *os.FileInfo
-)
-
 func main() {
 	dosyaBilgisi1, err := os.Stat("x.txt")
 	if err != nil {
